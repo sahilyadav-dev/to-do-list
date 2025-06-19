@@ -84,3 +84,22 @@ h1 {
   cursor: pointer;
   color: #a88bfe;
 }
+
+@media(max-width: 600px) {
+  .todo-grid,
+  .todo-input-grid{
+    grid-template-columns: 1fr;
+  }
+  .todo-delete-button {
+    border: none;
+    background: none;
+    background-color: #a88bfe;
+    font-size: 25px;
+    cursor: pointer;
+    color: #e8e8e8;
+    border: none;
+    border-radius: 10px;
+    height: 50px;
+  }
+}
+
