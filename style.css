@@ -68,11 +68,13 @@ h1 {
   font-size: 15px;
   font-weight: bold;
   cursor: pointer;
+  height: 50px;
   transition: background 0.3s;
 }
 
 .todo-delete-button {
   margin-left: 4px;
+  
 }
 .add-button:hover {
   background-color: #8e6efc;
@@ -91,15 +93,14 @@ h1 {
     grid-template-columns: 1fr;
   }
   .todo-delete-button {
-    border: none;
-    background: none;
-    background-color: #a88bfe;
-    font-size: 25px;
-    cursor: pointer;
-    color: #e8e8e8;
-    border: none;
-    border-radius: 10px;
-    height: 50px;
-  }
+  border: none;
+  background: none;
+  background-color: #a88bfe;
+  font-size: 25px;
+  cursor: pointer;
+  color: #e8e8e8;
+  border: none;
+  border-radius: 10px;
+  height: 50px;
 }
-
+}
