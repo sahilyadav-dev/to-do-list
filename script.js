@@ -60,3 +60,4 @@ function todoListRender() {
 function saveToStorage() {
   localStorage.setItem("todolist", JSON.stringify(toDoList));
 }
+
